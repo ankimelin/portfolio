@@ -18,22 +18,22 @@ a {
   display: inline-block;
 }
 
-footer a {
-  display: block;
-}
+/* footer a {
+  display: inline-block;
+} */
 
-a:focus {
+/* footer p {
+  display: inline;
+} */
+
+/* a:focus {
   outline: 3px solid #EE6F57; 
 }
 
 h1:focus, h2:focus {
   outline:3px solid #EE6F57;
-}
-
-/* a[href^=tel] {
-  text-decoration:inherit;
-  color: inherit;
 } */
+
 
 /*** HEADER ***/
 
@@ -67,6 +67,7 @@ header {
 
 .header-text {
   text-align: left;
+
 }
 
 h1 {
@@ -77,14 +78,13 @@ h1 {
   font-weight: 400;
 }
 
-
-
 h2 {
   margin: 20px 0;
   width: 400px;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   font-weight: 700;
+ 
 }
 
 .header-picture {
