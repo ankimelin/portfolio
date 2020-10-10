@@ -34,12 +34,10 @@ h1:focus, h2:focus {
   outline:3px solid #EE6F57;
 } */
 
-
 /*** HEADER ***/
 
 header {
-  /* background-color: #145374; */
-  background-color: #4e7f99;
+  background-color: #145374;
   border-bottom: 3px solid white; 
 }
 
@@ -106,6 +104,10 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   line-height: 30px;
+}
+
+.inline {
+  display: inline;
 }
 
 h5 {
