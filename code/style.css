@@ -14,6 +14,10 @@ header, .portfolio-section, footer {
   background-color: #f6f5f5;
 }
 
+a {
+  display: inline-block;
+}
+
 a:focus {
   outline: 3px solid #EE6F57; 
 }
