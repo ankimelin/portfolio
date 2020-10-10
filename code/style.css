@@ -63,8 +63,8 @@ h2 {
 .header-picture {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: -100px;
-  margin-top: -94px;
+  /* margin-bottom: -100px;
+  margin-top: -94px; */
 }
 
 .header-picture img {
@@ -239,10 +239,10 @@ footer p {
       font-size: 40px;
     }
 
-    .header-picture {
+    /* .header-picture {
       margin-bottom: -110px;
       margin-top: 30px;
-    }
+    } */
     
     p {
       font-size: 16px;
@@ -313,10 +313,10 @@ footer p {
       font-size: 40px;
     }
 
-    .header-picture {
+    /* .header-picture {
       margin-bottom: -70px;
       margin-top: 10px;
-    }
+    } */
     
     p {
       font-size: 16px;
