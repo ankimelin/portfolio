@@ -18,6 +18,10 @@ a {
   display: inline-block;
 }
 
+footer a {
+  display: block;
+}
+
 a:focus {
   outline: 3px solid #EE6F57; 
 }
@@ -26,10 +30,10 @@ h1:focus, h2:focus {
   outline:3px solid #EE6F57;
 }
 
-a[href^=tel] {
+/* a[href^=tel] {
   text-decoration:inherit;
   color: inherit;
-}
+} */
 
 /*** HEADER ***/
 
