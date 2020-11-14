@@ -41,6 +41,7 @@ h3 {
   font-weight: 900;
   color: white;
   font-size: 36px;
+  margin: 0 0 40px 0;
 }
 
 h4 {
@@ -48,6 +49,7 @@ h4 {
   font-weight: 700;
   font-size: 30px;
   color: #EE6F57; 
+  margin: 0 0 40px 0;
 }
 
 h5 {
@@ -99,6 +101,7 @@ li {
 
 .code-tag-container {
   display: flex;
+  margin-bottom: 0;
 }
 
 .code-tag {
@@ -114,7 +117,6 @@ header {
   background-image: url("./images/background.jpg");
   background-size: cover;
   background-position: top;
-  /* background-color: #145374; */
   border-bottom: 3px solid white; 
 }
 
@@ -161,12 +163,17 @@ header h4 {
 .featured-project-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   text-align: left;
-  margin: 20px 0;
 }
 
 .featured-project {
   width: 370px;
+  margin-bottom: 40px;
+}
+
+.featured-project:last-child, .featured-project:nth-last-child(2) {
+  margin-bottom: 0;
 }
 
 .featured-project img {
@@ -183,6 +190,10 @@ header h4 {
 .other-project {
   margin-top: 40px;
   display: inline-block;
+}
+
+.other-project:first-child {
+  margin-top: 0;
 }
 
 /*** SKILLS ***/
@@ -238,10 +249,12 @@ footer p {
   h3 { 
     padding: 5px;
     font-size: 24px;
+    margin-bottom: 20px;
   }
 
   h4 {
     font-size: 20px;
+    margin-bottom: 20px;
   }
 
   h5 {
@@ -291,6 +304,14 @@ footer p {
     margin-bottom: 40px;
   }
 
+  .featured-project:nth-last-child(2) {
+    margin-bottom: 40px;
+  }
+
+  .other-project {
+    margin-top: 40px;
+  }
+
   .skill-container {
     display: block;
   }
@@ -326,10 +347,12 @@ footer p {
   h3 { 
     padding: 5px;
     font-size: 24px;
+    margin-bottom: 40px;
   }
     
   h4 {
     font-size: 20px;
+    margin-bottom: 40px;
   }
     
   h5 {
@@ -370,8 +393,12 @@ footer p {
     margin-bottom: 40px;
   }
 
-  .skill-container div {
-    margin: 20px 0;
+  .featured-project:nth-last-child(2) {
+    margin-bottom: 40px;
+  }
+
+  .other-project {
+    margin-top: 40px;
   }
 
   .skill-container li {
